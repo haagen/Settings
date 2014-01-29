@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <customSettingsVisibility>Protected</customSettingsVisibility>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Type__c</fullName>
+        <description>This field describes what type this setting should be of</description>
+        <externalId>false</externalId>
+        <label>Type</label>
+        <length>100</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>settingBoolean__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This is a setting of boolean type / checkbox</description>
+        <externalId>false</externalId>
+        <label>settingBoolean</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>settingCurrency__c</fullName>
+        <description>Currency setting</description>
+        <externalId>false</externalId>
+        <label>settingCurrency</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>settingDate__c</fullName>
+        <description>Date type setting</description>
+        <externalId>false</externalId>
+        <label>settingDate</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>settingDatetime__c</fullName>
+        <description>Date Time setting</description>
+        <externalId>false</externalId>
+        <label>settingDatetime</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>settingEmail__c</fullName>
+        <description>Email type setting</description>
+        <externalId>false</externalId>
+        <label>settingEmail</label>
+        <required>false</required>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>settingNumber__c</fullName>
+        <description>number type setting</description>
+        <externalId>false</externalId>
+        <label>settingNumber</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>settingPercent__c</fullName>
+        <description>Percent type setting</description>
+        <externalId>false</externalId>
+        <label>settingPercent</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>settingPhone__c</fullName>
+        <description>Phone type setting</description>
+        <externalId>false</externalId>
+        <label>settingPhone</label>
+        <required>false</required>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>settingText__c</fullName>
+        <description>Text type setting</description>
+        <externalId>false</externalId>
+        <label>settingText</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>settingTextarea__c</fullName>
+        <description>Text Area type setting</description>
+        <externalId>false</externalId>
+        <label>settingTextarea</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>settingUrl__c</fullName>
+        <description>URL type setting</description>
+        <externalId>false</externalId>
+        <label>settingUrl</label>
+        <required>false</required>
+        <type>Url</type>
+    </fields>
+    <label>Settings</label>
+</CustomObject>
